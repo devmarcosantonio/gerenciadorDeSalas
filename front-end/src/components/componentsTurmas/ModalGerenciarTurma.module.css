@@ -1,0 +1,125 @@
+.modalFundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-weight: bolder;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+
+    color: gray;
+}
+
+.modal h2 {
+    color: rgb(58, 30, 134);
+}
+
+.modal h3 {
+    color: rgb(58, 30, 134);
+    font-size: 12px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.inputText {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.overflow {
+    overflow-y: scroll;
+    height: 300px;
+    font-size: 10px;
+    border: 1px solid rgb(58, 30, 134);
+    padding: 0 10px;
+}
+
+.select {
+    padding: 10px;
+}
+
+.areaButtons {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px
+}
+
+.btnPositivo {
+    padding:10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    transition: 0.5s;
+}
+
+.btnPositivo:hover {
+    background-color: rgb(0, 85, 0);
+}
+
+.btnNegativo {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: brown;
+    transition: 0.5s;
+}
+
+.btnNegativo:hover {
+    background-color: rgb(87, 21, 21);
+}
+
+.obs {
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.obs span {
+    color:  red;
+    font-size: 14px
+   
+}
+
+.obs button {
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
+.obs button:hover {
+    background-color: rgb(77, 76, 76);
+}
+
+.areaObs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}

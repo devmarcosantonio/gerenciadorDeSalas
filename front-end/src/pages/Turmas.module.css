@@ -1,0 +1,58 @@
+.header {
+    width: 60%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px ;
+}
+
+.headerButtons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header h1 {
+    color: rgb(58, 30, 134);
+    margin: 20px 0px ;
+}
+
+.header h2 {
+    color: gray;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.header h2 span {
+    color: rgb(58, 30, 134);
+
+    
+}
+
+.selectDisciplina {
+    display: flex;
+    padding: 10px; 
+    width: 80%;
+}
+
+.header button{
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.listaDeTurmas {
+    width: 60%;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+    height: 60vh;
+    overflow: auto;
+}

@@ -1,0 +1,105 @@
+.header {
+  width: 60%;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.headerButtons {
+  display: flex;
+  gap: 30px
+}
+
+
+.header h1 {
+  color: rgb(58, 30, 134);
+  margin: 20px 0px ;
+}
+
+.header h2 {
+  color: rgb(58, 30, 134);
+}
+
+.btnAlocar {
+  padding: 10px 15px;
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.btnDesalocar {
+  padding: 10px 15px;
+  background-color: #a52a2a;
+  color: white;
+  font-weight: bolder;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.listaDeSalas {
+  width: 60%;
+  margin: auto;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap:20px
+}
+
+
+/* Estilo para as tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Estilo para as células de cabeçalho */
+th {
+  background-color: #f2f2f2;
+  padding: 8px;
+  text-align: left;
+  text-align: center;
+}
+
+/* Estilo para as células de dados */
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  max-width: 80px;
+}
+
+/* Estilo para as linhas alternadas */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.turmaTabela {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.turmaTabela p {
+  font-size: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  color: rgb(58, 30, 134);
+
+}
+
+.horarios {
+  margin-bottom: 50px;
+}
+

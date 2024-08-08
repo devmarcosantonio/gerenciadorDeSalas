@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(58, 30, 134);
+    padding: 20px 0;
+    position:sticky;
+    top: 0;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+.link:hover {
+    color: rgb(167, 140, 189);
+}
+
+
+.link.active {
+    font-weight: bold;
+    border-bottom: 0.5px solid #fff;
+    padding-bottom: 1px ;
+  }
